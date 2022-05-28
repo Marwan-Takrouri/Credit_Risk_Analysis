@@ -1,4 +1,7 @@
 # Credit_Risk_Analysis***Overview of our model:***
+
+
+
 The lead data scientist, Jill, has asked me  to create the same development environment that she is using. This step will help you run the code smoothly without conflicts.
 Broadly speaking, machine learning can be divided into three learning categories: 
 Supervised.
@@ -47,20 +50,23 @@ Oversampling.
  Undersampling.
  And  a Combination approach of oversampling and undersampling. 
 
-The Results :
+***The Results ***
+
 Its important to point out that  the improvements seem to be modest, incremental improvements are usually more realistic than drastic ones. 
 small improvements, in tandem with other tweaks, can add up to make a significant difference. For now, however, I used  SMOTEENN, an approach to resampling that combines aspects of both oversampling and undersampling.
 Below is a summary of all the six models results 
-
- MODEL	Accuracy	Precision	Recall
+MODEL	Accuracy	Precision	Recall
 EASY ENSEMBLE	68%	0.88	0.37
 Balanced Random forest	68%	0.88	0.37
 COMBINATION OVER AND UNDER 	63%	0.01	0.68
 Smote undersampling	53%	0.01	0.53
 Smote over sampling	64%	0.01	0.56
-Naïve Raandom Oversampling	55%	0.01	0.53
-![image](https://user-images.githubusercontent.com/89116297/170838922-4f6e2b02-f467-4f3d-b0ed-041a2b8ddf58.png)
+Naïve Raandom Oversampling	58%	0.01	0.53
+
+![image](https://user-images.githubusercontent.com/89116297/170839451-d06b48a7-8f18-4fa8-bd16-bbca55f1bff8.png)
 
 
-Summary :
+
+***Summary :***
+
 I personally recommend depending on the analysis run above the easy ensemble classifier with accuracy of 68% and 0.88 precision and recall of 0.37 in high risk  &   1.0 and 1.0  low risk .
